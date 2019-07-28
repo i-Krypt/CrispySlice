@@ -115,3 +115,39 @@
  .inner:hover img{
    transform: scale(1.5);
  }
+
+/* quantity button css */
+.quantity {
+  padding-top: 20px;
+  margin-right: 60px;
+}
+.quantity input {
+  -webkit-appearance: none;
+  border: none;
+  text-align: center;
+  width: 32px;
+  font-size: 16px;
+  color: #43484D;
+  font-weight: 300;
+}
+
+
+button[class*=qnty] {
+  width: 30px;
+  height: 30px;
+  background-color: #E1E8EE;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+.minus-qnty img {
+  margin-bottom: 3px;
+}
+.plus-qnty img {
+  margin-top: 3px;
+}
+ 
+button:focus,
+input:focus {
+  outline:0;
+}
