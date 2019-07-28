@@ -98,9 +98,20 @@
       font-family: 'Gentium Book Basic', serif;
   }
 
-  /* .catchy{
-    padding-top: 100px;
-  } */
 
-
+  /* menu styles */
+ .menu{
+   margin-top: 1%;
+ }
  
+ .inner{
+   overflow: hidden;
+ }
+
+ .inner img{
+   transition: 1.5s ease;
+ }
+
+ .inner:hover img{
+   transform: scale(1.5);
+ }
