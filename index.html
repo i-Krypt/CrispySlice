@@ -9,11 +9,11 @@
     <link href="https://fonts.googleapis.com/css?family=Gentium+Book+Basic&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Architects+Daughter&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Sawarabi+Mincho&display=swap" rel="stylesheet">
-  
+
     <!-- bootstrap cdn stylesheet-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
-    
+
     <title>CrispySlice</title>
 </head>
 
@@ -60,7 +60,8 @@
             <div class="carousel-inner" role="listbox">
                 <div class="carousel-item active">
                     <div class="view">
-                        <img class="d-block w-100" src=" https://paperpull.com/wp-content/uploads/2018/09/various-types-of-pizza-slices-in-one-wallpaper.jpg"
+                        <img class="d-block w-100"
+                            src=" https://paperpull.com/wp-content/uploads/2018/09/various-types-of-pizza-slices-in-one-wallpaper.jpg"
                             alt="First slide">
                         <div class="mask rgba-black-light"></div>
                     </div>
@@ -72,7 +73,8 @@
                 <div class="carousel-item">
                     <!--Mask color-->
                     <div class="view">
-                        <img class="d-block w-100" src="https://www.wallpaperflare.com/static/406/499/647/pizza-cheese-pieces-tomatoes-wallpaper.jpg"
+                        <img class="d-block w-100"
+                            src="https://www.wallpaperflare.com/static/406/499/647/pizza-cheese-pieces-tomatoes-wallpaper.jpg"
                             alt="Second slide">
                         <div class="mask rgba-black-strong"></div>
                     </div>
@@ -84,7 +86,8 @@
                 <div class="carousel-item">
                     <!--Mask color-->
                     <div class="view">
-                        <img class="d-block w-100" src="http://thelevelbrighton.org.uk/wp-content/uploads/2016/03/Pizza-PriceGuideLady.co_.uk_.jpg"
+                        <img class="d-block w-100"
+                            src="http://thelevelbrighton.org.uk/wp-content/uploads/2016/03/Pizza-PriceGuideLady.co_.uk_.jpg"
                             alt="Third slide">
                         <div class="mask rgba-black-slight"></div>
                     </div>
@@ -111,63 +114,102 @@
 
     <!-- menu -->
     <section>
-<div class="menu">
-    <h1 class="mh text-center">Menu</h1>
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-4">
-                    <div class="card shadow" style="width: 20rem;">
-                        <div class="inner">
+        <div class="menu">
+            <h1 class="mh text-center">Menu</h1>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-4">
+                        <div class="card shadow" style="width: 20rem;">
+                            <div class="inner">
                                 <img src="https://i.ibb.co/n7L0Jw4/p2.jpg" class="card-img-top" alt="...">
-                        </div>
+                            </div>
                             <div class="card-body">
-                              <!-- <h5 class="card-title">Small</h5> -->
-                              <div class="custom-control custom-checkbox">
+                                <!-- <h5 class="card-title">Small</h5> -->
+                                <div class="custom-control custom-checkbox">
                                     <input type="checkbox" class="custom-control-input" id="Small">
                                     <label class="custom-control-label" for="Small">Small</label>
                                 </div>
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                              <a href="#" class="btn btn-dark">Place Order</a>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <div class="dropdown">
+                                    <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenu2"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Crust
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                            <ul class="list-group list-group-flush">
+                                                    <li class="list-group-item">
+                                                      <!-- Default checked -->
+                                                      <div class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" id="crispy" checked>
+                                                        <label class="custom-control-label" for="crispy">Crispy</label>
+                                                      </div>
+                                                    </li>
+                                                    <li class="list-group-item">
+                                                      <!-- Default checked -->
+                                                      <div class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" id="stuffed">
+                                                        <label class="custom-control-label" for="stuffed">Stuffed</label>
+                                                      </div>
+                                                    </li>
+                                                    <li class="list-group-item">
+                                                      <!-- Default checked -->
+                                                      <div class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" id="gluten" checked>
+                                                        <label class="custom-control-label" for="gluten">Gluten-free</label>
+                                                      </div>
+                                                    </li>
+                                                   
+                                                </ul>
+
+                                        
+                                    </div>
+                                </div>
+                                <br><br>
+                                <a href="#" class="btn btn-dark">Place Order</a>
                             </div>
-                          </div>
-            </div>
-            <div class="col-md-4">
-                    <div class="card shadow" style="width: 20rem;">
-                        <div class="inner">
-                                <img src="https://i.ibb.co/nD7scQ3/p1.jpg" class="card-img-top" alt="...">
                         </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card shadow" style="width: 20rem;">
+                            <div class="inner">
+                                <img src="https://i.ibb.co/nD7scQ3/p1.jpg" class="card-img-top" alt="...">
+                            </div>
                             <div class="card-body">
-                              <!-- <h5 class="card-title">Medium</h5> -->
-                              <div class="custom-control custom-checkbox">
+                                <!-- <h5 class="card-title">Medium</h5> -->
+                                <div class="custom-control custom-checkbox">
                                     <input type="checkbox" class="custom-control-input" id="Medium">
                                     <label class="custom-control-label" for="Medium">Medium</label>
                                 </div>
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                              <a href="#" class="btn btn-dark">Place Order</a>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-dark">Place Order</a>
                             </div>
-                          </div>
-            </div>
-            <div class="col-md-4">
-                    <div class="card shadow" style="width: 20rem;">
-                        <div class="inner">
-                                <img src="https://i.ibb.co/LhLH9C5/5b24d999d5b1007cce317b8a0dd105f3.jpg" class="card-img-top" alt="...">
                         </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card shadow" style="width: 20rem;">
+                            <div class="inner">
+                                <img src="https://i.ibb.co/LhLH9C5/5b24d999d5b1007cce317b8a0dd105f3.jpg"
+                                    class="card-img-top" alt="...">
+                            </div>
                             <div class="card-body">
-                              <!-- <h5 class="card-title">Large</h5> -->
-                              <div class="custom-control custom-checkbox">
+                                <!-- <h5 class="card-title">Large</h5> -->
+                                <div class="custom-control custom-checkbox">
                                     <input type="checkbox" class="custom-control-input" id="Large">
                                     <label class="custom-control-label" for="Large">Large</label>
                                 </div>
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                              <a href="#" class="btn btn-dark">Place Order</a>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-dark">Place Order</a>
                             </div>
-                          </div>
-            </div>
-        </div>
-        
-    </div>
+                        </div>
+                    </div>
+                </div>
 
-</div>
+            </div>
+
+        </div>
     </section>
 
 
