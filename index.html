@@ -132,74 +132,84 @@
                                 <p class="card-text">Some quick example text to build on the card title and make up the
                                     bulk of the card's content.</p>
 
-                                    <!-- crust dropdown -->
+                                <!-- crust dropdown -->
                                 <div class="dropdown">
                                     <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenu2"
                                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         Crust
                                     </button>
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                                            <ul class="list-group list-group-flush">
-                                                    <li class="list-group-item">
-                                                      <!-- Default checked -->
-                                                      <div class="custom-control custom-checkbox">
-                                                        <input type="checkbox" class="custom-control-input" id="crispy" checked>
-                                                        <label class="custom-control-label" for="crispy">Crispy</label>
-                                                      </div>
-                                                    </li>
-                                                    <li class="list-group-item">
-                                                      <!-- Default checked -->
-                                                      <div class="custom-control custom-checkbox">
-                                                        <input type="checkbox" class="custom-control-input" id="stuffed">
-                                                        <label class="custom-control-label" for="stuffed">Stuffed</label>
-                                                      </div>
-                                                    </li>
-                                                    <li class="list-group-item">
-                                                      <!-- Default checked -->
-                                                      <div class="custom-control custom-checkbox">
-                                                        <input type="checkbox" class="custom-control-input" id="gluten">
-                                                        <label class="custom-control-label" for="gluten">Gluten-free</label>
-                                                      </div>
-                                                    </li>
-                                                </ul>
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item">
+                                                <!-- Default checked -->
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="crispy"
+                                                        checked>
+                                                    <label class="custom-control-label" for="crispy">Crispy</label>
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <!-- Default checked -->
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="stuffed">
+                                                    <label class="custom-control-label" for="stuffed">Stuffed</label>
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <!-- Default checked -->
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="gluten">
+                                                    <label class="custom-control-label" for="gluten">Gluten-free</label>
+                                                </div>
+                                            </li>
+                                        </ul>
                                     </div>
                                 </div>
                                 <br>
                                 <!-- toppings dropdown -->
                                 <div class="dropdown">
-                                        <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenu2"
-                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                            Toppings
-                                        </button>
-                                        <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                                                <ul class="list-group list-group-flush">
-                                                        <li class="list-group-item">
-                                                          <!-- Default checked -->
-                                                          <div class="custom-control custom-checkbox">
-                                                            <input type="checkbox" class="custom-control-input" id="bacon" checked>
-                                                            <label class="custom-control-label" for="bacon">Bacon</label>
-                                                          </div>
-                                                        </li>
-                                                        <li class="list-group-item">
-                                                          <!-- Default checked -->
-                                                          <div class="custom-control custom-checkbox">
-                                                            <input type="checkbox" class="custom-control-input" id="cheese">
-                                                            <label class="custom-control-label" for="cheese">Cheese</label>
-                                                          </div>
-                                                        </li>
-                                                        <li class="list-group-item">
-                                                          <!-- Default checked -->
-                                                          <div class="custom-control custom-checkbox">
-                                                            <input type="checkbox" class="custom-control-input" id="pepperoni">
-                                                            <label class="custom-control-label" for="pepperoni">Pepperoni</label>
-                                                          </div>
-                                                        </li>
-                                                    </ul>
-                                        </div>
+                                    <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenu2"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Toppings
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item">
+                                                <!-- Default checked -->
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="bacon"
+                                                        checked>
+                                                    <label class="custom-control-label" for="bacon">Bacon</label>
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <!-- Default checked -->
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="cheese">
+                                                    <label class="custom-control-label" for="cheese">Cheese</label>
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <!-- Default checked -->
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="pepperoni">
+                                                    <label class="custom-control-label"
+                                                        for="pepperoni">Pepperoni</label>
+                                                </div>
+                                            </li>
+                                        </ul>
                                     </div>
-
-                                <br><br>
-                                <a href="#" class="btn btn-dark">Place Order</a>
+                                </div>
+                                <br>
+                                <div class="quantity">
+                                        <button class="plus-btn" type="button" name="button">
+                                          <img src="plus.svg" alt="" />
+                                        </button>
+                                        <input type="text" name="name" value="1">
+                                        <button class="minus-btn" type="button" name="button">
+                                          <img src="minus.svg" alt="" />
+                                        </button>
+                                      </div>
                             </div>
                         </div>
                     </div>
@@ -218,73 +228,73 @@
                                 <p class="card-text">Some quick example text to build on the card title and make up the
                                     bulk of the card's content.</p>
 
-                                    <div class="dropdown">
-                                            <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenu2"
-                                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                Crust
-                                            </button>
-                                            <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                                                    <ul class="list-group list-group-flush">
-                                                            <li class="list-group-item">
-                                                              <!-- Default checked -->
-                                                              <div class="custom-control custom-checkbox">
-                                                                <input type="checkbox" class="custom-control-input" id="crispy" checked>
-                                                                <label class="custom-control-label" for="crispy">Crispy</label>
-                                                              </div>
-                                                            </li>
-                                                            <li class="list-group-item">
-                                                              <!-- Default checked -->
-                                                              <div class="custom-control custom-checkbox">
-                                                                <input type="checkbox" class="custom-control-input" id="stuffed">
-                                                                <label class="custom-control-label" for="stuffed">Stuffed</label>
-                                                              </div>
-                                                            </li>
-                                                            <li class="list-group-item">
-                                                              <!-- Default checked -->
-                                                              <div class="custom-control custom-checkbox">
-                                                                <input type="checkbox" class="custom-control-input" id="gluten">
-                                                                <label class="custom-control-label" for="gluten">Gluten-free</label>
-                                                              </div>
-                                                            </li>
-                                                        </ul>
-                                            </div>
-                                        </div>
-                                        <br>
-                                        <!-- toppings dropdown -->
-                                        <div class="dropdown">
-                                                <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenu2"
-                                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                    Toppings
-                                                </button>
-                                                <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                                                        <ul class="list-group list-group-flush">
-                                                                <li class="list-group-item">
-                                                                  <!-- Default checked -->
-                                                                  <div class="custom-control custom-checkbox">
-                                                                    <input type="checkbox" class="custom-control-input" id="bacon" checked>
-                                                                    <label class="custom-control-label" for="bacon">Bacon</label>
-                                                                  </div>
-                                                                </li>
-                                                                <li class="list-group-item">
-                                                                  <!-- Default checked -->
-                                                                  <div class="custom-control custom-checkbox">
-                                                                    <input type="checkbox" class="custom-control-input" id="cheese">
-                                                                    <label class="custom-control-label" for="cheese">Cheese</label>
-                                                                  </div>
-                                                                </li>
-                                                                <li class="list-group-item">
-                                                                  <!-- Default checked -->
-                                                                  <div class="custom-control custom-checkbox">
-                                                                    <input type="checkbox" class="custom-control-input" id="pepperoni">
-                                                                    <label class="custom-control-label" for="pepperoni">Pepperoni</label>
-                                                                  </div>
-                                                                </li>
-                                                            </ul>
+                                <div class="dropdown">
+                                    <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenu2"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Crust
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item">
+                                                <!-- Default checked -->
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="crispy"
+                                                        checked>
+                                                    <label class="custom-control-label" for="crispy">Crispy</label>
                                                 </div>
-                                            </div>
-
-                                    <br>
-                                <a href="#" class="btn btn-dark">Place Order</a>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <!-- Default checked -->
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="stuffed">
+                                                    <label class="custom-control-label" for="stuffed">Stuffed</label>
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <!-- Default checked -->
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="gluten">
+                                                    <label class="custom-control-label" for="gluten">Gluten-free</label>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <br>
+                                <!-- toppings dropdown -->
+                                <div class="dropdown">
+                                    <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenu2"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Toppings
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item">
+                                                <!-- Default checked -->
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="bacon"
+                                                        checked>
+                                                    <label class="custom-control-label" for="bacon">Bacon</label>
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <!-- Default checked -->
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="cheese">
+                                                    <label class="custom-control-label" for="cheese">Cheese</label>
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <!-- Default checked -->
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="pepperoni">
+                                                    <label class="custom-control-label"
+                                                        for="pepperoni">Pepperoni</label>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -292,8 +302,7 @@
                     <div class="col-md-4">
                         <div class="card shadow" style="width: 20rem;">
                             <div class="inner">
-                                <img src="https://i.ibb.co/nMxrGVP/gluttenfree.jpg"
-                                    class="card-img-top" alt="...">
+                                <img src="https://i.ibb.co/nMxrGVP/gluttenfree.jpg" class="card-img-top" alt="...">
                             </div>
                             <div class="card-body">
                                 <!-- <h5 class="card-title">Large</h5> -->
@@ -304,80 +313,88 @@
                                 <p class="card-text">Some quick example text to build on the card title and make up the
                                     bulk of the card's content.</p>
 
-                                    <div class="dropdown">
-                                            <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenu2"
-                                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                Crust
-                                            </button>
-                                            <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                                                    <ul class="list-group list-group-flush">
-                                                            <li class="list-group-item">
-                                                              <!-- Default checked -->
-                                                              <div class="custom-control custom-checkbox">
-                                                                <input type="checkbox" class="custom-control-input" id="crispy" checked>
-                                                                <label class="custom-control-label" for="crispy">Crispy</label>
-                                                              </div>
-                                                            </li>
-                                                            <li class="list-group-item">
-                                                              <!-- Default checked -->
-                                                              <div class="custom-control custom-checkbox">
-                                                                <input type="checkbox" class="custom-control-input" id="stuffed">
-                                                                <label class="custom-control-label" for="stuffed">Stuffed</label>
-                                                              </div>
-                                                            </li>
-                                                            <li class="list-group-item">
-                                                              <!-- Default checked -->
-                                                              <div class="custom-control custom-checkbox">
-                                                                <input type="checkbox" class="custom-control-input" id="gluten">
-                                                                <label class="custom-control-label" for="gluten">Gluten-free</label>
-                                                              </div>
-                                                            </li>
-                                                        </ul>
-                                            </div>
-                                        </div>
-                                        <br>
-                                        <!-- toppings dropdown -->
-                                        <div class="dropdown">
-                                                <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenu2"
-                                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                    Toppings
-                                                </button>
-                                                <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                                                        <ul class="list-group list-group-flush">
-                                                                <li class="list-group-item">
-                                                                  <!-- Default checked -->
-                                                                  <div class="custom-control custom-checkbox">
-                                                                    <input type="checkbox" class="custom-control-input" id="bacon" checked>
-                                                                    <label class="custom-control-label" for="bacon">Bacon</label>
-                                                                  </div>
-                                                                </li>
-                                                                <li class="list-group-item">
-                                                                  <!-- Default checked -->
-                                                                  <div class="custom-control custom-checkbox">
-                                                                    <input type="checkbox" class="custom-control-input" id="cheese">
-                                                                    <label class="custom-control-label" for="cheese">Cheese</label>
-                                                                  </div>
-                                                                </li>
-                                                                <li class="list-group-item">
-                                                                  <!-- Default checked -->
-                                                                  <div class="custom-control custom-checkbox">
-                                                                    <input type="checkbox" class="custom-control-input" id="pepperoni">
-                                                                    <label class="custom-control-label" for="pepperoni">Pepperoni</label>
-                                                                  </div>
-                                                                </li>
-                                                            </ul>
+                                <div class="dropdown">
+                                    <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenu2"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Crust
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item">
+                                                <!-- Default checked -->
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="crispy"
+                                                        checked>
+                                                    <label class="custom-control-label" for="crispy">Crispy</label>
                                                 </div>
-                                            </div>
-
-                                    <br>
-                                <a href="#" class="btn btn-dark">Place Order</a>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <!-- Default checked -->
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="stuffed">
+                                                    <label class="custom-control-label" for="stuffed">Stuffed</label>
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <!-- Default checked -->
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="gluten">
+                                                    <label class="custom-control-label" for="gluten">Gluten-free</label>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <br>
+                                <!-- toppings dropdown -->
+                                <div class="dropdown">
+                                    <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenu2"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Toppings
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item">
+                                                <!-- Default checked -->
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="bacon"
+                                                        checked>
+                                                    <label class="custom-control-label" for="bacon">Bacon</label>
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <!-- Default checked -->
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="cheese">
+                                                    <label class="custom-control-label" for="cheese">Cheese</label>
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <!-- Default checked -->
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="pepperoni">
+                                                    <label class="custom-control-label"
+                                                        for="pepperoni">Pepperoni</label>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
             </div>
 
+            <br>
+            <div class="container">
+                <div class="row">
+                    <div class="col text-center">
+                        <button class="btn btn-outline-dark">Place Order</button>
+                    </div>
+                </div>
+            </div>
+            <br>
         </div>
     </section>
 
