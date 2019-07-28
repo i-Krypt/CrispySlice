@@ -1,4 +1,4 @@
-.carousel-item {
+/* .carousel-item {
     height: 100vh;
     min-height: 300px;
     background: no-repeat center center scroll;
@@ -24,13 +24,30 @@
     font-size: 18px;
     line-height: 1.9;
   }
-  
+   */
+
+   *{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* html{
+	font-size: 10px;
+	font-family: 'Architects Daughter', cursive;
+	scroll-behavior: smooth;
+} */
+
+
+
+
   .navbar-light .navbar-brand {
     color: #fff;
     font-size: 25px;
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 2px;
+    font-family: 'Sawarabi Mincho', sans-serif;
   }
   
   .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
@@ -68,6 +85,22 @@
   }
   
   
+  /* Carousel style */
+  .view{
+    height: 90vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+  }
   
-  
-  
+  .h3-responsive{
+      padding-bottom: 130px;
+      color:whitesmoke;
+      font-family: 'Gentium Book Basic', serif;
+  }
+
+  /* .catchy{
+    padding-top: 100px;
+  } */
+
+
+ 
