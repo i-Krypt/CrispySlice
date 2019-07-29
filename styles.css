@@ -118,8 +118,8 @@
 
 /* quantity button css */
 .quantity {
-  padding-top: 20px;
-  margin-right: 60px;
+  padding-top: 0px;
+  margin-left: 170px;
 }
 .quantity input {
   -webkit-appearance: none;
