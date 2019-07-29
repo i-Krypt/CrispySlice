@@ -1,45 +1,8 @@
-/* .carousel-item {
-    height: 100vh;
-    min-height: 300px;
-    background: no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
-  .carousel-caption {
-    bottom: 270px;
-  }
-  
-  .carousel-caption h5 {
-    font-size: 45px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    margin-top: 25px;
-  }
-  
-  .carousel-caption p {
-    width: 75%;
-    margin: auto;
-    font-size: 18px;
-    line-height: 1.9;
-  }
-   */
-
    *{
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
-
-/* html{
-	font-size: 10px;
-	font-family: 'Architects Daughter', cursive;
-	scroll-behavior: smooth;
-} */
-
-
-
 
   .navbar-light .navbar-brand {
     color: #fff;
@@ -93,61 +56,16 @@
   }
   
   .h3-responsive{
-      padding-bottom: 130px;
-      color:whitesmoke;
+      padding-bottom: 160px;
+      color:white;
+      font-size: 50px;
       font-family: 'Gentium Book Basic', serif;
   }
 
-
-  /* menu styles */
- .menu{
-   margin-top: 1%;
- }
- 
- .inner{
-   overflow: hidden;
- }
-
- .inner img{
-   transition: 1.5s ease;
- }
-
- .inner:hover img{
-   transform: scale(1.5);
- }
-
-/* quantity button css */
-.quantity {
-  padding-top: 0px;
-  margin-left: 170px;
-}
-.quantity input {
-  -webkit-appearance: none;
-  border: none;
-  text-align: center;
-  width: 32px;
-  font-size: 16px;
-  color: #43484D;
-  font-weight: 300;
-}
-
-
-button[class*=qnty] {
-  width: 30px;
-  height: 30px;
-  background-color: #E1E8EE;
-  border-radius: 6px;
-  border: none;
-  cursor: pointer;
-}
-.minus-qnty img {
-  margin-bottom: 3px;
-}
-.plus-qnty img {
-  margin-top: 3px;
-}
- 
-button:focus,
-input:focus {
-  outline:0;
+.checkout{
+  background:url('https://i.ibb.co/gJLfHGf/Be-Funky-photo-1.jpg') no-repeat;
+  padding:200px;
+  background-size:cover;
+  
+  
 }
