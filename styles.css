@@ -14,11 +14,11 @@
   }
   
   .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
-    color: #fff;
+    color:black;
   }
   
   .navbar-light .navbar-nav .nav-link {
-    color: #fff;
+    color:black;
   }
   
   .navbar-toggler {
@@ -30,7 +30,7 @@
   }
   
   .nav-link {
-    padding: .2rem 1rem;
+    padding: .5rem 1rem;
   }
   
   .nav-link.active,.nav-link:focus{
@@ -38,7 +38,7 @@
   }
   
   .navbar-toggler {
-    padding: 1px 5px;
+    padding: 3px 5px;
     font-size: 18px;
     line-height: 0.3;
   }
@@ -57,9 +57,9 @@
   
   .h3-responsive{
       padding-bottom: 160px;
-      color:white;
+      color:antiquewhite black;
       font-size: 50px;
-      font-family: 'Gentium Book Basic', serif;
+      font-family: 'Noticia Text', serif;
   }
 
 .checkout{
