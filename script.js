@@ -93,7 +93,7 @@ $(document).ready(function() {
           return multiply() + 200;
       }
           alert("Total price is" + addDelivery());
-          alert("Thank you for your working with us." + "Your pizza(s) shall be delivered at " + deliveryPlace);
+          alert("Thank you for making an order," + "your pizza order will be delivered at " + deliveryPlace);
     });
   });  
 });
