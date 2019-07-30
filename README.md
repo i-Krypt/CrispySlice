@@ -18,15 +18,6 @@ https://Owiti-charles.github.io/Pizza-Deliciosa
 
 * code . or atom . depending on the text editor of your choise.
 
-## Technologies Used
-
-* [HTML5](https://github.com/topics/html5)
-* [CSS](https://github.com/topics/css3)
-* [Bootstrap](https://github.com/topics/bootstrap)
-* [Javascript](https://github.com/topics/javascript)
-* markdown
-
-
 ## Author.
 Sam Nujoma.
 
