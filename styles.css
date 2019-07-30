@@ -66,6 +66,46 @@
   background:url('https://i.ibb.co/gJLfHGf/Be-Funky-photo-1.jpg') no-repeat;
   padding:200px;
   background-size:cover;
-  
+  display: none;
+  height: 671px;
+  color: azure;
   
 }
+
+.md-outline.select-wrapper+label {
+  top: .5em !important;
+  z-index: 2 !important;
+  }
+
+  .select{
+    width: 20%;
+    
+  }
+
+
+  .details,.toDeliver{
+    width:50%;
+    padding-left:100px;
+    display:none;
+    }
+  
+    #purchase,.toppings,#placeorder,#delivery,.toDeliver{
+      display:none;
+    }
+  
+    .toppings{
+      padding-left:103px;
+    }
+  
+    #placeorder{
+      padding-left:5px;
+    }
+  
+    .slidebtn{
+      padding-left:95px;
+    }
+
+    .mh{
+      font-size: 40px;
+      font-family: 'Concert One', cursive;
+    }
