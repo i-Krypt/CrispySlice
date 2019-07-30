@@ -5,8 +5,8 @@ A web app to order different pizza sizes and crust and also you get to choose de
 ## Screenshot
 <img src="https://i.ibb.co/FDS2Zgs/Screenshot-from-2019-07-30-06-11-37.png" width="900px" height="440px">
 
-## Live Page 
-https://Owiti-charles.github.io/Pizza-Deliciosa 
+## Live Site
+https://github.com/i-Krypt/CrispySlice.git
 
 
 ## Installation / Setup instruction
